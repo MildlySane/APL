@@ -1,0 +1,8 @@
+ Things to be tested
+ - test cases with valid matrices - last                                    => Done
+ - Non-numeric input should result in TypeError                             => Done
+ - Mismatched axes should result in ValueError - matrices but wrong kind    => Done
+ - Non-matrices - IndexError or TypeError? - catch and change Error         => Done
+ Note: we cannot test Type == List since any iterable type should be OK.
+ Also, checking all the sublists to see size is probably a waste in general.=> Done
+ Instead we can rely on the IndexError if we go out of bounds.
